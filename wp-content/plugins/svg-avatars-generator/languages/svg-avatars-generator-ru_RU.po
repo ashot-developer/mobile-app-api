@@ -1,0 +1,1515 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SVG Avatars Generator v1.0\n"
+"POT-Creation-Date: 2021-05-04 20:14+0200\n"
+"PO-Revision-Date: 2021-05-04 20:14+0200\n"
+"Last-Translator: DeeThemes\n"
+"Language-Team: <http://codecanyon.net/user/DeeThemes>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __:1;_e:1;_n:1,2;_n_noop:1,2;_x:1,2c;_ex:1,2c;"
+"_nx:1,2,4c;_nx_noop:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;"
+"esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/svg-avatars-activation.php:72 ../svg-avatars-generator.php:47
+#: ../svg-avatars-generator.php:73
+msgid "SVG Avatars Generator plugin"
+msgstr "Плагин генератора SVG аватарок"
+
+#: ../includes/svg-avatars-activation.php:74 ../svg-avatars-generator.php:75
+msgid ""
+"requires the direct file system access on your server, and has been "
+"deactivated! Unfortunately, the plugin cannot be used. Please contact the "
+"plugin's author."
+msgstr ""
+"требует отсутствующий прямой доступ к файловой системе на вашем сервере и "
+"поэтому был деактивирован! К сожалению, использование плагина невозможно.  "
+"Пожалуйста, обратитесь к его автору."
+
+#: ../includes/svg-avatars-activation.php:76 ../svg-avatars-generator.php:51
+#: ../svg-avatars-generator.php:77
+msgid "Back to"
+msgstr "Назад в"
+
+#: ../includes/svg-avatars-activation.php:78 ../svg-avatars-generator.php:53
+#: ../svg-avatars-generator.php:79
+msgid "WordPress Dashboard"
+msgstr "Консоль WordPress"
+
+#: ../includes/svg-avatars-admin.php:16
+msgid "Settings"
+msgstr "Параметры"
+
+#: ../includes/svg-avatars-admin.php:27
+msgid "More plugins by DeeThemes"
+msgstr "Другие плагины от DeeThemes"
+
+#: ../includes/svg-avatars-admin.php:37
+msgid "SVG Avatars Generator Plugin Settings"
+msgstr "Генератор SVG аватарок - настройки"
+
+#: ../includes/svg-avatars-admin.php:38
+msgid "SVG Avatars"
+msgstr "SVG аватарки"
+
+#: ../includes/svg-avatars-admin.php:49
+#: ../includes/svg-avatars-validation.php:349
+msgid "You can't manage options."
+msgstr "Вы не можете редактировать опции."
+
+#: ../includes/svg-avatars-admin.php:54
+msgid "SVG Avatars Generator Settings"
+msgstr "Генератор SVG аватарок - настройки"
+
+#: ../includes/svg-avatars-admin.php:58
+msgid "General options"
+msgstr "Общие установки"
+
+#: ../includes/svg-avatars-admin.php:62
+msgid "Welcome slogans"
+msgstr "Слоганы приветствия"
+
+#: ../includes/svg-avatars-admin.php:67
+msgid ""
+"The welcome slogan on the starting screen for logged in users, when there is "
+"an integration with other plugins."
+msgstr ""
+"Приветственная слоган на стартовом экране генератора для залогиненных "
+"пользователей при использовании интеграции с другими плагинами."
+
+#: ../includes/svg-avatars-admin.php:72
+msgid ""
+"The welcome slogan for logged out or not registered users, when there is an "
+"integration with other plugins."
+msgstr ""
+"Приветственная слоган на стартовом экране генератора для "
+"незарегистрированных пользователей при использовании интеграции с другими "
+"плагинами."
+
+#: ../includes/svg-avatars-admin.php:77
+msgid ""
+"The welcome slogan, when there is no integration with other plugins, and the "
+"\"Save\" button is hidden."
+msgstr ""
+"Приветственная слоган на стартовом экране генератора при отсутствии "
+"интеграции с другими плагинами, и когда кнопка \"Сохранить\" скрыта."
+
+#: ../includes/svg-avatars-admin.php:81
+msgid "Load on a specific page(s)"
+msgstr "Включить на определенной странице (страницах)"
+
+#: ../includes/svg-avatars-admin.php:84 ../includes/svg-avatars-admin.php:141
+#: ../includes/svg-avatars-admin.php:149 ../includes/svg-avatars-admin.php:188
+#: ../includes/svg-avatars-admin.php:202 ../includes/svg-avatars-admin.php:215
+#: ../includes/svg-avatars-admin.php:242 ../includes/svg-avatars-admin.php:260
+#: ../includes/svg-avatars-admin.php:490 ../includes/svg-avatars-admin.php:501
+#: ../includes/svg-avatars-admin.php:512
+msgid "No"
+msgstr "Нет"
+
+#: ../includes/svg-avatars-admin.php:88
+msgid "Yes, and page slug"
+msgstr "Да, и слаг страницы"
+
+#: ../includes/svg-avatars-admin.php:91
+msgid ""
+"The plugin's styles and scripts can be loaded on a specific page(s) only. "
+"This is useful for reducing the load on the site and improving its "
+"performance."
+msgstr ""
+"Стили и скрипты плагина могут быть загружены только на определенных "
+"страницах. Это полезно для снижения нагрузки на сайт и повышения его "
+"производительности."
+
+#: ../includes/svg-avatars-admin.php:92
+msgid ""
+"Enter one or several slugs separated by commas. For example, the avatars "
+"generator runs on"
+msgstr ""
+"Введите один или несколько слагов, разделенных запятыми. Например, генератор "
+"аватарок появляется на"
+
+#: ../includes/svg-avatars-admin.php:92
+msgid "page. In that case the slug should be"
+msgstr "странице. В этом случае слаг должен быть"
+
+#: ../includes/svg-avatars-admin.php:93
+msgid "If the generator is also used on another page:"
+msgstr "Если генератор также используется на другой странице:"
+
+#: ../includes/svg-avatars-admin.php:93
+msgid "then the slug value above should be"
+msgstr "то слаг должен быть"
+
+#: ../includes/svg-avatars-admin.php:97
+msgid "Allow genders"
+msgstr "Разрешить пол"
+
+#: ../includes/svg-avatars-admin.php:101
+msgid "Both"
+msgstr "Оба"
+
+#: ../includes/svg-avatars-admin.php:106
+msgid "Males only"
+msgstr "Мужской только"
+
+#: ../includes/svg-avatars-admin.php:111
+msgid "Females only"
+msgstr "Женский только"
+
+#: ../includes/svg-avatars-admin.php:117
+msgid "Initial avatar zooming"
+msgstr "Начальное масштабирование аватарок"
+
+#: ../includes/svg-avatars-admin.php:121
+msgid "three steps upscale"
+msgstr "увеличить на 3 шага"
+
+#: ../includes/svg-avatars-admin.php:122
+msgid "two steps upscale"
+msgstr "увеличить на 2 шага"
+
+#: ../includes/svg-avatars-admin.php:123
+msgid "one step upscale"
+msgstr "увеличить на 1 шаг"
+
+#: ../includes/svg-avatars-admin.php:124
+msgid "not changed"
+msgstr "без изменений"
+
+#: ../includes/svg-avatars-admin.php:125
+msgid "one step downscale"
+msgstr "уменьшить на 1 шаг"
+
+#: ../includes/svg-avatars-admin.php:126
+msgid "two steps downscale"
+msgstr "уменьшить на 2 шага"
+
+#: ../includes/svg-avatars-admin.php:127
+msgid "three steps downscale"
+msgstr "уменьшить на 3 шага"
+
+#: ../includes/svg-avatars-admin.php:129
+msgid "On first init, avatar can be set up to three times bigger or smaller."
+msgstr ""
+"При первой инициализации аватарки могут быть показаны в три раза крупнее или "
+"мельче."
+
+#: ../includes/svg-avatars-admin.php:133
+msgid "Allow users to upload created avatars to secure.gravatar.com"
+msgstr ""
+"Разрешить пользователям загружать созданные аватарки на secure.gravatar.com"
+
+#: ../includes/svg-avatars-admin.php:136 ../includes/svg-avatars-admin.php:182
+#: ../includes/svg-avatars-admin.php:196 ../includes/svg-avatars-admin.php:210
+#: ../includes/svg-avatars-admin.php:486
+msgid "Yes, and size"
+msgstr "Да, и размер"
+
+#: ../includes/svg-avatars-admin.php:138 ../includes/svg-avatars-admin.php:184
+#: ../includes/svg-avatars-admin.php:198 ../includes/svg-avatars-admin.php:223
+#: ../includes/svg-avatars-admin.php:231 ../includes/svg-avatars-admin.php:268
+#: ../includes/svg-avatars-admin.php:488
+msgid "pixels"
+msgstr "пикселей"
+
+#: ../includes/svg-avatars-admin.php:146
+msgid "Remove link to svgAvatars.com"
+msgstr "Удалить ссылку на svgAvatars.com"
+
+#: ../includes/svg-avatars-admin.php:152 ../includes/svg-avatars-admin.php:239
+#: ../includes/svg-avatars-admin.php:257 ../includes/svg-avatars-admin.php:448
+#: ../includes/svg-avatars-admin.php:498 ../includes/svg-avatars-admin.php:509
+#: ../includes/svg-avatars-admin.php:605 ../includes/svg-avatars-admin.php:614
+#: ../includes/svg-avatars-admin.php:625
+msgid "Yes"
+msgstr "Да"
+
+#: ../includes/svg-avatars-admin.php:154
+msgid ""
+"It's really appreciated if you decide to leave it (rel=\"nofollow\" is "
+"already included)"
+msgstr ""
+"Очень приветствуется, если Вы решите ее оставить (тег rel=\"nofollow\" уже "
+"добавлен)"
+
+#: ../includes/svg-avatars-admin.php:158
+msgid "Your custom CSS file"
+msgstr "Ваши собственные CSS правила"
+
+#: ../includes/svg-avatars-admin.php:160
+msgid "You can"
+msgstr "Вы можете"
+
+#: ../includes/svg-avatars-admin.php:160
+msgid "add here"
+msgstr "добавить здесь"
+
+#: ../includes/svg-avatars-admin.php:160
+msgid "your custom CSS rules to override existing ones"
+msgstr "ваши собственные стили для переопределения существующих"
+
+#: ../includes/svg-avatars-admin.php:166
+msgid "Download options"
+msgstr "Опции скачивания"
+
+#: ../includes/svg-avatars-admin.php:170
+msgid "Default file name"
+msgstr "Имя файла по умолчанию"
+
+#: ../includes/svg-avatars-admin.php:175
+msgid ""
+"The default file name for downloaded avatars. Should contain the letters and "
+"numbers only."
+msgstr ""
+"Имя файла по умолчанию для скачиваемых аватарок. Должно содержать только "
+"буквы и цифры."
+
+#: ../includes/svg-avatars-admin.php:179
+msgid "Allow users to download PNG with small dimensions"
+msgstr "Разрешить пользователям скачивать PNG файл с небольшими размерами"
+
+#: ../includes/svg-avatars-admin.php:193
+msgid "Allow users to download PNG with big dimensions"
+msgstr "Разрешить пользователям скачивать PNG файл с большими размерами"
+
+#: ../includes/svg-avatars-admin.php:207
+msgid "Allow users to download SVG file"
+msgstr "Разрешить пользователям скачивать SVG файл"
+
+#: ../includes/svg-avatars-admin.php:212
+msgid "conventional value in pixels"
+msgstr "условный размер в пикселах"
+
+#: ../includes/svg-avatars-admin.php:220
+msgid "The special PNG file dimensions for iOS devices"
+msgstr "Особый размер PNG для устройств работающих под iOS"
+
+#: ../includes/svg-avatars-admin.php:224 ../includes/svg-avatars-admin.php:232
+msgid ""
+"Will take effect if you allow to download avatars in PNG and/or SVG formats."
+msgstr ""
+"Будет иметь эффект, если Вы разрешили скачивать аватарки в любом из PNG или "
+"SVG форматов."
+
+#: ../includes/svg-avatars-admin.php:228
+msgid "The special PNG file dimensions for Windows 8 tablets and phones"
+msgstr "Особый размер PNG для планшетов и телефонов под Windows 8"
+
+#: ../includes/svg-avatars-admin.php:236
+msgid "Disable SVG download option for Android devices"
+msgstr "Отключить скачивание SVG файла на Android устройствах"
+
+#: ../includes/svg-avatars-admin.php:244
+msgid "Usually SVG format is not supported by Android Apps."
+msgstr "По умолчанию, ни одно Android приложение не открывает файлы SVG."
+
+#: ../includes/svg-avatars-admin.php:250
+msgid "Save options"
+msgstr "Опции сохранения"
+
+#: ../includes/svg-avatars-admin.php:254
+msgid "Show SVG Avatars Generator on user profile page in WP Dashboard"
+msgstr ""
+"Показывать генератор аватарок на странице профиля пользователя в админке WP"
+
+#: ../includes/svg-avatars-admin.php:265
+msgid "Size of saved avatars"
+msgstr "Размер сохраняемых аватарок"
+
+#: ../includes/svg-avatars-admin.php:271
+msgid ""
+"Note: when integrated, some third party plugins have own settings of avatar "
+"sizes."
+msgstr ""
+"Замечание: при интеграции, некоторые плагины других авторов имеют "
+"собственные установки размеров аватарок."
+
+#: ../includes/svg-avatars-admin.php:275
+msgid "Saved file format"
+msgstr "Формат сохраняемого файла"
+
+#: ../includes/svg-avatars-admin.php:287
+msgid "Integration (with)"
+msgstr "Интеграция (с)"
+
+#: ../includes/svg-avatars-admin.php:290
+msgid "None"
+msgstr "Отсутствует"
+
+#: ../includes/svg-avatars-admin.php:292
+msgid "The \"Save\" button of SVG avatars generator will be hidden."
+msgstr "Кнопка \"Сохранить\" в генераторе аватарок будет скрыта."
+
+#: ../includes/svg-avatars-admin.php:295 ../includes/svg-avatars-admin.php:472
+#: ../includes/svg-avatars-admin.php:589
+msgid "Custom"
+msgstr "Пользовательская"
+
+#: ../includes/svg-avatars-admin.php:297
+msgid ""
+"Your custom function controls avatars saving. Please add your code into the "
+"appropriate section of the \"svg-avatars-save-avatar.php\" file."
+msgstr ""
+"Ваша собственная функциональность контролирует сохранение аватарок. "
+"Пожалуйста, добавьте ваш код в соответствующую секция файла \"svg-avatars-"
+"save-avatar.php\"."
+
+#: ../includes/svg-avatars-admin.php:300
+msgid "Local"
+msgstr "Локальная"
+
+#: ../includes/svg-avatars-admin.php:302
+msgid ""
+"The gravatars on this site will be replaced with local avatars, which are "
+"saved in the 'path_to/wp-content/uploads/svg-avatars/X/' directory, where "
+"'X' is an integer equal to the user ID."
+msgstr ""
+"Граватары на этом сайте буду заменены локально сохраняемыми аватарками, "
+"которые располагаются в папке 'path_to/wp-content/uploads/svg-avatars/X/', "
+"где 'X' - целочисленное значение эквивалентное идентификатору пользователя "
+"сайта."
+
+#: ../includes/svg-avatars-admin.php:305
+msgid "bbPress forum"
+msgstr "форума bbPress"
+
+#: ../includes/svg-avatars-admin.php:307 ../includes/svg-avatars-admin.php:350
+#, php-format
+msgid "This option also takes effect on integration with %splugin"
+msgstr "Эта опция также затрагивает интеграцию с плагином %s"
+
+#: ../includes/svg-avatars-admin.php:317 ../includes/svg-avatars-admin.php:335
+#: ../includes/svg-avatars-admin.php:360 ../includes/svg-avatars-admin.php:379
+#: ../includes/svg-avatars-admin.php:405 ../includes/svg-avatars-admin.php:414
+#: ../includes/svg-avatars-admin.php:423
+#, php-format
+msgid "%splugin must be installed and activated!"
+msgstr "%sплагин должен быть установлен и активирован!"
+
+#: ../includes/svg-avatars-admin.php:323 ../includes/svg-avatars-admin.php:341
+#, php-format
+msgid ""
+"The plugin has its own settings of avatar sizes. By now they are %1$sx%2$s "
+"px for \"full\" avatars and %3$sx%4$s px for \"thumb\" ones."
+msgstr ""
+"Плагин имеет собственные установки размеров аватарок. Сейчас они составляют "
+"%1$sx%2$s пикселей для \"полноразмерных\" аватарок и %3$sx%4$s пикселей для "
+"\"миниатюрных\"."
+
+#: ../includes/svg-avatars-admin.php:325 ../includes/svg-avatars-admin.php:343
+msgid ""
+"The plugin has its own settings of avatar sizes. By default they are 150x150 "
+"px for \"full\" avatars and 50x50 px for \"thumb\" ones."
+msgstr ""
+"Плагин имеет собственные установки размеров аватарок. По умолчанию они "
+"составляют 150x150 пикселей для \"полноразмерных\" аватарок и 50x50 пикселей "
+"для \"миниатюрных\"."
+
+#: ../includes/svg-avatars-admin.php:367
+#, php-format
+msgid ""
+"The plugin has its own settings of avatar sizes. By now they are %1$sx%2$s "
+"px."
+msgstr ""
+"Плагин имеет собственные установки размеров аватарок. Сейчас они составляют "
+"%1$sx%2$s пикселей."
+
+#: ../includes/svg-avatars-admin.php:369
+msgid ""
+"The plugin has its own settings of avatar sizes. By default they are 200x200 "
+"px."
+msgstr ""
+"Плагин имеет собственные установки размеров аватарок. По умолчанию они "
+"составляют 200x200 пикселей."
+
+#: ../includes/svg-avatars-admin.php:387
+msgid "The plugin has its own settings of avatar sizes. By now they are "
+msgstr ""
+"Плагин имеет собственные установки размеров аватарок. Сейчас они составляют "
+
+#: ../includes/svg-avatars-admin.php:389
+#, php-format
+msgid "%1$sx%1$s px, "
+msgstr "%1$sx%1$s, "
+
+#: ../includes/svg-avatars-admin.php:391
+#, php-format
+msgid "and %1$sx%1$s px."
+msgstr "и %1$sx%1$s пикселей."
+
+#: ../includes/svg-avatars-admin.php:395
+msgid ""
+"The plugin has its own settings of avatar sizes. By default they are 40x40 "
+"px, 80x80 px, and 190x190 px."
+msgstr ""
+"Плагин имеет собственные установки размеров аватарок. По умолчанию они "
+"составляют 40x40, 80x80 и 190x190 пикселей."
+
+#: ../includes/svg-avatars-admin.php:431
+#, php-format
+msgid ""
+"The plugin has its own settings of avatar thumbnail sizes. By now they are "
+"%1$sx%2$s px."
+msgstr ""
+"Плагин имеет собственные установки миниатюрных размеров аватарок. Сейчас они "
+"составляют %1$sx%2$s пикселей."
+
+#: ../includes/svg-avatars-admin.php:434 ../includes/svg-avatars-admin.php:437
+msgid ""
+"The plugin has its own settings of avatar thumbnail sizes. By default they "
+"are 100x100 px."
+msgstr ""
+"Плагин имеет собственные установки миниатюрных размеров аватарок. По "
+"умолчанию они составляют 100x100 пикселей."
+
+#: ../includes/svg-avatars-admin.php:444
+msgid "Add \"Create Avatar\" tab"
+msgstr "Добавить вкладку \"Создать Аватар\""
+
+#: ../includes/svg-avatars-admin.php:452
+msgid ""
+"If checked, the new \"Create Avatar\" tab with SVG avatars generator will be "
+"added into the \"Profile\" component."
+msgstr ""
+"Если этот флажок установлен, новая вкладка \"Создать Аватар\" с генератором "
+"SVG аватарок будет добавлена в компонент «Профиль»."
+
+#: ../includes/svg-avatars-admin.php:455
+msgid "Takes effect for"
+msgstr "Влияет на"
+
+#: ../includes/svg-avatars-admin.php:455
+msgid "plugin and its extensions like"
+msgstr "плагин и его расширения, такие как"
+
+#: ../includes/svg-avatars-admin.php:460
+msgid "Custom message"
+msgstr "Пользовательское сообщение"
+
+#: ../includes/svg-avatars-admin.php:464
+msgid "(heading)"
+msgstr "(заголовок)"
+
+#: ../includes/svg-avatars-admin.php:469
+msgid "(text)"
+msgstr "(текст)"
+
+#: ../includes/svg-avatars-admin.php:472
+msgid "The message of successful avatar saving when"
+msgstr "Сообщение об успешном сохранении аватара, когда"
+
+#: ../includes/svg-avatars-admin.php:472
+msgid "Integration"
+msgstr "Интеграция"
+
+#: ../includes/svg-avatars-admin.php:472
+msgid "option is set to"
+msgstr "опция установлена в"
+
+#: ../includes/svg-avatars-admin.php:479
+msgid "Share options"
+msgstr "Опции для Соцсетей"
+
+#: ../includes/svg-avatars-admin.php:483
+msgid "Allow users to share avatars"
+msgstr "Разрешить пользователям поделиться ссылкой в соцсетях"
+
+#: ../includes/svg-avatars-admin.php:495
+msgid "Allow share on Pinterest"
+msgstr "Разрешить Pinterest"
+
+#: ../includes/svg-avatars-admin.php:506
+msgid "Allow share on Twitter"
+msgstr "Разрешить Twitter"
+
+#: ../includes/svg-avatars-admin.php:517
+msgid "URL for share"
+msgstr "URL Вашей ссылки"
+
+#: ../includes/svg-avatars-admin.php:520
+msgid "start your custom URL with http:// or https://"
+msgstr "должен начинаться с http:// or https://"
+
+#: ../includes/svg-avatars-admin.php:522
+msgid ""
+"If leave it blank, the value will be the document URL of a web page where "
+"the generator is placed."
+msgstr ""
+"Если оставить поле пустым, значение URL будет подставлено автоматически из "
+"адреса страницы, где Вы разместили генератор."
+
+#: ../includes/svg-avatars-admin.php:526
+msgid "Title for share"
+msgstr "Ваш заголовок для ссылки"
+
+#: ../includes/svg-avatars-admin.php:531
+msgid ""
+"If leave it blank, the title will be taken from &lt;title&gt; HTML tag of a "
+"web page where the generator is placed."
+msgstr ""
+"Если оставить поле пустым, значение будет подставлено автоматически из HTML "
+"тэга &lt;title&gt; страницы, где Вы разместили генератор."
+
+#: ../includes/svg-avatars-admin.php:535
+msgid "Description for share"
+msgstr "Ваше описание для ссылки"
+
+#: ../includes/svg-avatars-admin.php:540
+msgid ""
+"If leave it blank, it might be taken from your &lt;meta&gt; description tag "
+"of a web page where the generator is placed."
+msgstr ""
+"Если оставить поле пустым, значение может быть взято из HTML тэга &lt;"
+"meta&gt; description страницы, где Вы разместили генератор."
+
+#: ../includes/svg-avatars-admin.php:544
+msgid "Watermark on avatars for share"
+msgstr "Водяной знак на аватаре для соцсетей"
+
+#: ../includes/svg-avatars-admin.php:549
+msgid "If leave it blank, no watermark will be added"
+msgstr "Если оставить поле пустым, водяной знак не будет налагаться на аватар"
+
+#: ../includes/svg-avatars-admin.php:555
+msgid "Color calculation and color scheme"
+msgstr "Расчет цветов и выбор цветовой схемы"
+
+#: ../includes/svg-avatars-admin.php:559
+msgid "Delta (difference) of saturation:"
+msgstr "Дельта (разница) насыщенности:"
+
+#: ../includes/svg-avatars-admin.php:562 ../includes/svg-avatars-admin.php:570
+msgid " %, range from 0 to 100"
+msgstr " %, диапазон от 0 до 100"
+
+#: ../includes/svg-avatars-admin.php:563 ../includes/svg-avatars-admin.php:571
+msgid "It's used for automatic calculating shadows and highlights"
+msgstr "Используется для автоматического подсчета значений бликов и теней"
+
+#: ../includes/svg-avatars-admin.php:567
+msgid "Delta (difference) of brightness"
+msgstr "Дельта (разница) яркости"
+
+#: ../includes/svg-avatars-admin.php:575
+msgid "Color scheme (skin)"
+msgstr "Цветовая схема (скин)"
+
+#: ../includes/svg-avatars-admin.php:579
+msgid "Dark"
+msgstr "Темная"
+
+#: ../includes/svg-avatars-admin.php:584
+msgid "Light"
+msgstr "Светлая"
+
+#: ../includes/svg-avatars-admin.php:590
+msgid "Click here"
+msgstr "Кликните здесь"
+
+#: ../includes/svg-avatars-admin.php:590
+msgid ""
+"to edit CSS file with custom colors (repeats Light scheme for reference by "
+"default)."
+msgstr ""
+", чтобы отредактировать CSS файл Вашей цветовой схемы (повторяет Светлую "
+"тему для начала работы)"
+
+#: ../includes/svg-avatars-admin.php:598
+msgid "Database and service options"
+msgstr "Установки базы данных и сервисные опции"
+
+#: ../includes/svg-avatars-admin.php:602
+msgid "Restore Factory Defaults"
+msgstr "Восстановить опции по умолчанию"
+
+#: ../includes/svg-avatars-admin.php:607
+msgid "If checked, reset all settings to the factory default values."
+msgstr ""
+"Если отмечено, сбросить все настройки до изначальных значений по умолчанию."
+
+#: ../includes/svg-avatars-admin.php:611
+msgid "Delete all options on Uninstall"
+msgstr "Удалить все опции при деинсталяции"
+
+#: ../includes/svg-avatars-admin.php:617
+msgid ""
+"If checked, remove all the SVG Avatars data from the database when using the"
+msgstr ""
+"Если отмечено, то все сохраненные настройки будут удалены из базы данных при "
+"нажатии на ссылку"
+
+#: ../includes/svg-avatars-admin.php:617
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../includes/svg-avatars-admin.php:617
+msgid "link on the main Plugins page."
+msgstr "на странице управления плагинами."
+
+#: ../includes/svg-avatars-admin.php:622
+msgid "Debug mode"
+msgstr "Режим отображение ошибок"
+
+#: ../includes/svg-avatars-admin.php:628
+msgid ""
+"If checked, show service and error messages in JavaScript Console (F12 key "
+"in Google Chrome, Firefox, and MS Edge) on client side."
+msgstr ""
+"Если отмечено, то показывать сервисные сообщения и ошибки в консоли "
+"JavaScript на стороне клиента (клавиша F12 в Google Chrome, Firefox и MS "
+"Edge)."
+
+#: ../includes/svg-avatars-admin.php:636
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: ../includes/svg-avatars-admin.php:640
+msgid "Settings Import and Export"
+msgstr "Импорт и экспорт настроек"
+
+#: ../includes/svg-avatars-admin.php:644
+msgid "Export Settings"
+msgstr "Экспорт настроек"
+
+#: ../includes/svg-avatars-admin.php:647
+msgid ""
+"Export the plugin settings of this site as a JSON file. This allows you to "
+"easily restore the settings and/or import them into another site."
+msgstr ""
+"Экспортировать настройки плагина в виде JSON файла. Это позволит вам с "
+"легкостью восстановить настройки и/или импортировать их на другой сайт."
+
+#: ../includes/svg-avatars-admin.php:655
+msgid "Export"
+msgstr "Экспорт"
+
+#: ../includes/svg-avatars-admin.php:661
+msgid "Import Settings"
+msgstr "Импорт настроек"
+
+#: ../includes/svg-avatars-admin.php:664
+msgid "Import the plugin settings from a"
+msgstr "Импортируйте настройки плагина из"
+
+#: ../includes/svg-avatars-admin.php:664
+msgid ""
+"file. This file can be obtained by exporting the settings of this site or "
+"another one using the form above."
+msgstr ""
+"файла. Его можно получить, экспортировав настройки плагина с этого или с "
+"другого сайта, используя форму выше."
+
+#: ../includes/svg-avatars-admin.php:674
+msgid "Import"
+msgstr "Импорт"
+
+#: ../includes/svg-avatars-admin.php:682
+msgid "Manage temporary avatars"
+msgstr "Управление временными файлами аватарок"
+
+#: ../includes/svg-avatars-admin.php:686
+msgid "Clear avatars"
+msgstr "Очистить аватарки"
+
+#: ../includes/svg-avatars-admin.php:689
+msgid "Delete all temporary avatars files in the folder:"
+msgstr "Удалить все временные файлы аватарок в папке:"
+
+#: ../includes/svg-avatars-admin.php:693
+msgid "Total files:"
+msgstr "Всего файлов:"
+
+#: ../includes/svg-avatars-admin.php:696
+msgid "Total size:"
+msgstr "Общий размер:"
+
+#: ../includes/svg-avatars-admin.php:705 ../includes/svg-avatars-admin.php:707
+msgid "Clear"
+msgstr "Очистить"
+
+#: ../includes/svg-avatars-admin.php:788
+msgid "The temporary avatars have been deleted successfully."
+msgstr "Временные файлы аватарок были успешно удалены."
+
+#: ../includes/svg-avatars-admin.php:799
+msgid ""
+"An error occurred. The temporary avatars have not been deleted. Please check "
+"the folder exists and its permissions."
+msgstr ""
+"Произошла ошибка. Временные файлы аватарок не были удалены. Пожалуйста, "
+"проверьте, существует ли папка и её права доступа."
+
+#: ../includes/svg-avatars-admin.php:867
+msgid "Please choose a file to import"
+msgstr "Пожалуйста, выберете файл для импорта"
+
+#: ../includes/svg-avatars-admin.php:872
+msgid "Please upload a valid .json file"
+msgstr "Пожалуйста, загрузите валидный файл .json"
+
+#: ../includes/svg-avatars-admin.php:883
+msgid "The plugin settings were successfully imported."
+msgstr "Настройки плагина были успешно импортированы."
+
+#: ../includes/svg-avatars-assets.php:118
+msgid "Are you sure you want to set factory defaults for ALL the options?"
+msgstr ""
+"Вы уверены, что хотите установить изначальные настройки по умолчанию для "
+"ВСЕХ параметров?"
+
+#: ../includes/svg-avatars-assets.php:119
+msgid ""
+"Are you sure you want to delete ALL the options upon deleting this plugin?"
+msgstr "Вы уверены, что хотите удалить ВСЕ опции плагина после его удаления?"
+
+#: ../includes/svg-avatars-buddypress.php:20
+msgid "Create Avatar"
+msgstr "Создать Аватар"
+
+#: ../includes/svg-avatars-local-avatars.php:60
+msgid "Create your new avatar"
+msgstr "Создать новый аватар"
+
+#: ../includes/svg-avatars-local-avatars.php:60
+msgid ""
+"Please reload this page after saving your new avatar to see it as \"Profile "
+"Picture\"."
+msgstr "Пожалуйста, перезагрузите эту страницу, чтобы увидеть новый аватар."
+
+#: ../includes/svg-avatars-validation.php:23
+#: ../includes/svg-avatars-validation.php:28
+#: ../includes/svg-avatars-validation.php:33
+msgid "The welcome slogan cannot be empty."
+msgstr "Приветственный слоган не может быть пустым."
+
+#: ../includes/svg-avatars-validation.php:49
+msgid "The page slug cannot be empty if a specific page is used."
+msgstr ""
+"Слаг страницы не может быть пустым, если используется включение на "
+"определенной странице."
+
+#: ../includes/svg-avatars-validation.php:89
+msgid "The default avatar file name cannot be empty."
+msgstr "Имя файла по умолчанию не может быть пустым."
+
+#: ../includes/svg-avatars-validation.php:177
+#: ../includes/svg-avatars-validation.php:183
+#: ../includes/svg-avatars-validation.php:189
+#: ../includes/svg-avatars-validation.php:196
+#: ../includes/svg-avatars-validation.php:204
+#: ../includes/svg-avatars-validation.php:211
+#: ../includes/svg-avatars-validation.php:218
+#, php-format
+msgid ""
+"%s plugin is not installed and/or activated! Please install and activate it "
+"first and try again."
+msgstr ""
+"%s плагин не установлен и/или не активирован! Пожалуйста, сначала установите "
+"и активируйте плагин и попробуйте еще раз."
+
+#: ../includes/svg-avatars-validation.php:235
+msgid "The heading of Custom message cannot be empty."
+msgstr "Заголовок сообщения не может быть пустым."
+
+#: ../includes/svg-avatars-validation.php:243
+msgid "The text of Custom message cannot be empty."
+msgstr "Текст сообщения не может быть пустым."
+
+#: ../includes/svg-avatars-validation.php:280
+msgid ""
+"The URL you entered did not appear to be a valid URL. Please enter a valid "
+"one."
+msgstr "URL, который вы ввели, не допустим. Введите правильный URL."
+
+#: ../includes/svg-avatars-validation.php:357
+msgid "\"svgavatars.defaults.js\" could not be created"
+msgstr "\"svgavatars.defaults.js\" файл не может быть создан"
+
+#: ../includes/svg-avatars-validation.php:359
+msgid "The file"
+msgstr "Файл"
+
+#: ../includes/svg-avatars-validation.php:361
+msgid "cannot be saved."
+msgstr "не может быть записан."
+
+#: ../includes/svg-avatars-validation.php:363
+msgid ""
+"Please check that the file exists and/or you need to make this file writable "
+"before you can use the plugin. See the "
+msgstr ""
+"Пожалуйста, проверьте, что файл существует и/или сделайте его доступным для "
+"записи перед тем как использовать плагин. Смотрите "
+
+#: ../includes/svg-avatars-validation.php:365
+msgid "Codex"
+msgstr "Кодекс"
+
+#: ../includes/svg-avatars-validation.php:367
+msgid "for more information."
+msgstr "для дополнительной информации."
+
+#: ../includes/svg-avatars-validation.php:507
+msgid "PLEASE DO NOT EDIT THIS FILE!"
+msgstr "ПОЖАЛУЙСТА, НЕ РЕДАКТИРУЙТЕ ДАННЫЙ ФАЙЛ!"
+
+#: ../includes/svg-avatars-validation.php:509
+msgid "Make your changes in the WP dashboard on SVG Avatars Settings page."
+msgstr ""
+"Вносите изменения через панель WordPress на странице настроек плагина SVG "
+"Avatars."
+
+#: ../includes/svg-avatars-validation.php:597
+msgid "please choose a gender"
+msgstr "пожалуйста, выберете пол"
+
+#: ../includes/svg-avatars-validation.php:599
+msgid "please wait..."
+msgstr "пожалуйста, подождите..."
+
+#: ../includes/svg-avatars-validation.php:601
+msgid "random"
+msgstr "случайный"
+
+#: ../includes/svg-avatars-validation.php:603
+msgid "reset"
+msgstr "сбросить"
+
+#: ../includes/svg-avatars-validation.php:605
+msgid "save"
+msgstr "сохранить"
+
+#: ../includes/svg-avatars-validation.php:607
+msgid "share"
+msgstr "поделиться"
+
+#: ../includes/svg-avatars-validation.php:609
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: ../includes/svg-avatars-validation.php:611
+msgid "download"
+msgstr "скачать"
+
+#: ../includes/svg-avatars-validation.php:613
+msgid "SVG - vector format"
+msgstr "SVG - вектор"
+
+#: ../includes/svg-avatars-validation.php:615
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: ../includes/svg-avatars-validation.php:615
+msgid "All the current changes will be lost."
+msgstr "Все текущие изменения будут потеряны."
+
+#: ../includes/svg-avatars-validation.php:617
+msgid "Please tap and hold the avatar and choose Save"
+msgstr ""
+"Пожалуйста, коснитесь и удерживайте изображение, затем выберете Сохранить"
+
+#: ../includes/svg-avatars-validation.php:619
+msgid "You can upload the created avatar to Gravatar.com"
+msgstr "Вы можете загрузить созданный аватар на Gravatar.com"
+
+#: ../includes/svg-avatars-validation.php:619
+msgid "Please enter your Gravatar email and password"
+msgstr "Пожалуйста, введите ваш email и пароль"
+
+#: ../includes/svg-avatars-validation.php:621
+msgid "Your Gravatar email"
+msgstr "Ваш email"
+
+#: ../includes/svg-avatars-validation.php:623
+msgid "Your Gravatar password"
+msgstr "Ваш пароль"
+
+#: ../includes/svg-avatars-validation.php:625
+msgid "Rating:"
+msgstr "Рейтинг:"
+
+#: ../includes/svg-avatars-validation.php:627
+msgid "Note: Your email and password will NEVER be stored on our server"
+msgstr ""
+"Замечание: Ваш email и пароль НИКОГДА не будут сохраняться на нашем сервере"
+
+#: ../includes/svg-avatars-validation.php:629
+msgid "upload"
+msgstr "загрузить"
+
+#: ../includes/svg-avatars-validation.php:631
+msgid ""
+"Sorry, but your browser does not support SVG (Scalable Vector Graphic). "
+"Avatar Generator cannot start."
+msgstr ""
+"Очень жаль, но Ваш браузер не поддерживает SVG (Масштабируемую векторную "
+"графику). Генератор не может начать работу."
+
+#: ../includes/svg-avatars-validation.php:633
+msgid "Error loading of JSON graphic data!"
+msgstr "Ошибка при загрузке графических данных!"
+
+#: ../includes/svg-avatars-validation.php:633
+msgid ""
+"Please try to reload the page. If the error still exists, please contact the "
+"administrator."
+msgstr ""
+"Пожалуйста, попробуйте перезагрузить страницу. Если ошибка сохраняется, "
+"обратитесь к администратору."
+
+#: ../includes/svg-avatars-validation.php:635
+#: ../includes/svg-avatars-validation.php:643
+msgid "Congratulations!"
+msgstr "Поздравляем!"
+
+#: ../includes/svg-avatars-validation.php:635
+msgid ""
+"You have successfully created the new avatar. You can check it on your "
+"profile page."
+msgstr ""
+"Вы успешно создали новый аватар. Вы можете увидеть его на странице своего "
+"профиля."
+
+#: ../includes/svg-avatars-validation.php:639
+msgid "An error occurred!"
+msgstr "Произошла ошибка!"
+
+#: ../includes/svg-avatars-validation.php:639
+#: ../includes/svg-avatars-validation.php:653
+msgid "Please try again."
+msgstr "Пожалуйста, повторите попытку."
+
+#: ../includes/svg-avatars-validation.php:639
+msgid ""
+"If the error still exists, please reload the page, recreate your avatar and "
+"try again. If this doesn't help, please contact the administrator."
+msgstr ""
+"Если ошибка все еще существует, перезагрузите страницу, пересоздайте свой "
+"аватар и повторите попытку. Если это не помогло, обратитесь к администратору."
+
+#: ../includes/svg-avatars-validation.php:641
+msgid "You are not logged in!"
+msgstr "Вы не вошли в систему!"
+
+#: ../includes/svg-avatars-validation.php:641
+msgid ""
+"Please login or register first, then reload this page and create your avatar "
+"again."
+msgstr ""
+"Сначала войдите или зарегистрируйтесь, затем перезагрузите эту страницу и "
+"снова создайте свой аватар."
+
+#: ../includes/svg-avatars-validation.php:643
+msgid ""
+"You have successfully changed your Gravatar. Please allow 5 to 10 minutes "
+"for avatar changes take effect."
+msgstr ""
+"Вы успешно поменяли ваш граватар. Подождите 5 - 10 минут чтобы изменения "
+"вступили в силу."
+
+#: ../includes/svg-avatars-validation.php:645
+msgid "Email is empty!"
+msgstr "Не введен email адрес!"
+
+#: ../includes/svg-avatars-validation.php:645
+msgid "Please enter your email and try again."
+msgstr "Пожалуйста, введите Ваш email и попробуйте еще раз."
+
+#: ../includes/svg-avatars-validation.php:647
+msgid "Password is empty!"
+msgstr "Не введен пароль!"
+
+#: ../includes/svg-avatars-validation.php:647
+msgid "Please enter your password and try again."
+msgstr "Пожалуйста, введите Ваш пароль и попробуйте еще раз."
+
+#: ../includes/svg-avatars-validation.php:649
+msgid "There is an internal error on 'secure.gravatar.com' site!"
+msgstr "Внутренняя ощибка на сервере 'secure.gravatar.com'!"
+
+#: ../includes/svg-avatars-validation.php:649
+msgid "Please try later."
+msgstr "Пожалуйста, попробуйте позже."
+
+#: ../includes/svg-avatars-validation.php:651
+msgid "Incorrect Email or Password!"
+msgstr "Неверный email или пароль!"
+
+#: ../includes/svg-avatars-validation.php:651
+msgid "Please check them and try again."
+msgstr "Пожалуйста, проверьте и введите еще раз."
+
+#: ../includes/svg-avatars-validation.php:653
+msgid "The image is broken!"
+msgstr "Изображение повреждено!"
+
+#: ../includes/svg-avatars-validation.php:655
+msgid "Graphic engine by "
+msgstr "Графический движок от "
+
+#: ../includes/svg-avatars-validation.php:657
+msgid "ok"
+msgstr "ok"
+
+#: ../includes/svg-avatars-validation.php:659
+msgid "cancel"
+msgstr "отмена"
+
+#: ../includes/svg-avatars-validation.php:661
+msgid "close"
+msgstr "закрыть"
+
+#: ../includes/svg-avatars-validation.php:663
+msgid "try again"
+msgstr "еще раз"
+
+#: ../includes/svg-avatars-validation.php:667
+msgid "face"
+msgstr "лицо"
+
+#: ../includes/svg-avatars-validation.php:669
+msgid "eyes"
+msgstr "глаза"
+
+#: ../includes/svg-avatars-validation.php:671
+msgid "hair"
+msgstr "волосы"
+
+#: ../includes/svg-avatars-validation.php:673
+msgid "clothes"
+msgstr "одежда"
+
+#: ../includes/svg-avatars-validation.php:675
+msgid "backs"
+msgstr "фоны"
+
+#: ../includes/svg-avatars-validation.php:681
+msgctxt "for graphic backgrounds"
+msgid "basic"
+msgstr "общие"
+
+#: ../includes/svg-avatars-validation.php:683
+msgid "shape"
+msgstr "контур"
+
+#: ../includes/svg-avatars-validation.php:691
+msgctxt "for clothes"
+msgid "basic"
+msgstr "общая"
+
+#: ../includes/svg-avatars-validation.php:693
+msgid "on head"
+msgstr "на голове"
+
+#: ../includes/svg-avatars-validation.php:695
+msgid "ears"
+msgstr "уши"
+
+#: ../includes/svg-avatars-validation.php:697
+msgid "eyebrows"
+msgstr "брови"
+
+#: ../includes/svg-avatars-validation.php:701
+msgid "iris"
+msgstr "радужка"
+
+#: ../includes/svg-avatars-validation.php:703
+msgid "eye shape"
+msgstr "контур"
+
+#: ../includes/svg-avatars-validation.php:705
+msgid "mouth"
+msgstr "рот"
+
+#: ../includes/svg-avatars-validation.php:707
+msgid "nose"
+msgstr "нос"
+
+#: ../includes/svg-avatars-validation.php:709
+msgid "glasses"
+msgstr "очки"
+
+#: ../includes/svg-avatars-validation.php:711
+msgid "mustache"
+msgstr "усы"
+
+#: ../includes/svg-avatars-validation.php:713
+msgid "beard"
+msgstr "борода"
+
+#: ../includes/svg-avatars-validation.php:730
+msgid ""
+"An error occurred! The resulting JavaScript file \"svgavatars.defaults.js\" "
+"is not saved. Please try again."
+msgstr ""
+"Возникла ошибка! Результирующий JavaScript файл \"svgavatars.defaults.js\" "
+"не сохранен! Пожалуйста, попробуйте еще раз."
+
+#: ../svg-avatars-generator.php:49
+msgid ""
+"requires WordPress 5.2 or higher, and has been deactivated! Please upgrade "
+"WordPress and try again."
+msgstr ""
+"требует WordPress 5.2 или новее и был деактивирован. Пожалуйста, обновите "
+"WordPress и попробуйте снова."
+
+#~ msgid ""
+#~ "Enter one or several slugs separated by commas. For example, the avatars "
+#~ "generator runs on <strong>www.your-site.tld/avatars-generator/</strong> "
+#~ "page. In that case the slug should be <strong>avatars-generator</strong>"
+#~ msgstr ""
+#~ "Введите один или несколько слагов, разделенных запятыми. Например, "
+#~ "генератор аватарок появляется на странице <strong>www.your-site.tld/"
+#~ "avatars-generator/</strong>. В этом случае, слаг должен быть указан как "
+#~ "<strong>avatars-generator</strong>"
+
+#~ msgid ""
+#~ "If the generator is also used on another page: <strong>www.your-site.tld/"
+#~ "one-more-page/</strong>, then the slug value above should be "
+#~ "<strong>avatars-generator, one-more-page</strong>"
+#~ msgstr ""
+#~ "Если генератор аватарок используется на другой странице: <strong>www.your-"
+#~ "site.tld/one-more-page/</strong>, то тогда вышеуказанный слаг должен быть "
+#~ "<strong>avatars-generator, one-more-page</strong>"
+
+#~ msgid ""
+#~ "Takes effect for <strong>BuddyPress</strong> plugin and its extensions "
+#~ "like <strong>BuddyBoss</strong>, <strong>Youzer</strong> etc."
+#~ msgstr ""
+#~ "Опция влияет на плагин <strong>BuddyPress</strong> и его производные "
+#~ "такие как <strong>BuddyBoss</strong>, <strong>Youzer</strong> и т.д."
+
+#~ msgid ""
+#~ "The message of successful avatar saving when <strong>Integration</strong> "
+#~ "option is set to <strong>Custom</strong>"
+#~ msgstr ""
+#~ "Сообщение об успешном сохранении аватарки, когда опция <strong>Интеграция "
+#~ "(с)</strong> установлена как <strong>Пользовательская</strong>"
+
+#~ msgid ""
+#~ "<h3>You can upload the created avatar to Gravatar.com</h3><p>Please enter "
+#~ "your Gravatar email and password</p>"
+#~ msgstr ""
+#~ "<h3>Вы можете загрузить созданную аватарку на Gravatar.com</"
+#~ "h3><p>Пожалуйста, введите Ваш email и пароль от сервиса gravatar.com</p>"
+
+#~ msgid ""
+#~ "<h3>Incorrect Email or Password!</h3><p>Please check them and try again.</"
+#~ "p>"
+#~ msgstr ""
+#~ "<h3>Неверный Email и/или пароль!</h3><p>Пожалуйста, проверьте введенные "
+#~ "данные и попробуйте еще раз.</p>"
+
+#~ msgid "<h3>The image is broken!</h3><p>Please try again</p>"
+#~ msgstr ""
+#~ "<h3>Изображение повреждено!</h3><p>Пожалуйста, попробуйте еще раз</p>"
+
+#~ msgid "Restore defaults upon this plugin deactivation + reactivation"
+#~ msgstr "Вернуть первоначальные настройки через реактивацию этого плагина"
+
+#~ msgid ""
+#~ "Only check this option if you want to reset all the options upon this "
+#~ "Plugin reactivation."
+#~ msgstr ""
+#~ "Поставьте галочку только в том случае, если Вы желаете вернуть настройки "
+#~ "по умолчанию через последовательную деактивацию и реактивацию этого "
+#~ "плагина."
+
+#, fuzzy
+#~| msgid "UserPro plugin must be installed and activated."
+#~ msgid "%smust be installed and activated!"
+#~ msgstr "Плагин UserPro должен быть установлен и активирован."
+
+#~ msgid ""
+#~ "Allow users to store avatars on the server (please look at the "
+#~ "Documentation)"
+#~ msgstr ""
+#~ "Разрешить пользователям сохранять файл на Вашем сервере (смотрите "
+#~ "Документацию)"
+
+#~ msgid "pixels, and file type"
+#~ msgstr "пикселей, и формат файла"
+
+#~ msgid "Important:"
+#~ msgstr "Важно:"
+
+#~ msgid ""
+#~ "the option must be set to \"Yes\" if you wish a UserPro plugin "
+#~ "integration."
+#~ msgstr ""
+#~ "опция должна быть установлена в \"Да\" если вы включаете интеграцию с "
+#~ "плагином UserPro."
+
+#~ msgid "Integrate with UserPro plugin"
+#~ msgstr "Интегрировать с плагином UserPro"
+
+#~ msgid ""
+#~ "UserPro avatar will be stored in PNG format only. SVG option above will "
+#~ "be ignored."
+#~ msgstr ""
+#~ "Аватаки для плагина UserPro будут сохраняться только в формате PNG. "
+#~ "Указанная выше SVG опция будет проигнорирована."
+
+#~ msgid ""
+#~ "if the option is set to \"Yes\", the \"Allow users to store avatars on "
+#~ "the server\" one must be set to \"Yes\" too."
+#~ msgstr ""
+#~ "если опция установлена в \"Да\", то опция \"Разрешить пользователям "
+#~ "сохранять файл на Вашем сервере\" должна быть тоже установлена в значение "
+#~ "\"Да\"."
+
+#~ msgid "Allow share on Facebook"
+#~ msgstr "Разрешить Facebook"
+
+#~ msgid ""
+#~ "The option removed since ver. 1.4. Facebook deprecated and disallowed "
+#~ "this functionality in their API."
+#~ msgstr ""
+#~ "Опция удалена в версии 1.4. Facebook отключил данный функционал в своем "
+#~ "API."
+
+#~ msgid "Allow share on Google Plus"
+#~ msgstr "Разрешить Google Plus"
+
+#~ msgid ""
+#~ "The option removed since ver. 1.4. Google Plus social network is closed."
+#~ msgstr "Опция удалена в версии 1.4. Соцсеть Google Plus закрыта."
+
+#~ msgid "Choose the language file for the frontend"
+#~ msgstr "Выберете языковой файл для пользователей"
+
+#~ msgid ""
+#~ "The option removed since ver. 1.4. Please create your own translation "
+#~ "within PO/MO files based on existing POT one in the <strong>wp-content/"
+#~ "plugins/svg-avatars-generator/languages</strong> folder."
+#~ msgstr ""
+#~ "Опция удалена в версии 1.4. Пожалуйста, создайте свои собственные файлы "
+#~ "перевода PO/MO на базе существующего POT файла в директории <strong>wp-"
+#~ "content/plugins/svg-avatars-generator/languages</strong>."
+
+#~ msgid ""
+#~ "The Saturation delta value you entered is out of range. Please enter a "
+#~ "valid value."
+#~ msgstr ""
+#~ "Значение дельты насыщености выходит за допустимый диапазон. Введите "
+#~ "правильное значение."
+
+#~ msgid ""
+#~ "The Saturation delta value you entered did not appear to be a valid one. "
+#~ "Please enter a valid value."
+#~ msgstr ""
+#~ "Значение дельты насыщености, которое Вы ввели, не является допустимым. "
+#~ "Введите правильное числовое значение."
+
+#~ msgid ""
+#~ "The Brightness delta value you entered is out of range. Please enter a "
+#~ "valid value."
+#~ msgstr ""
+#~ "Значение дельты яркости выходит за допустимый диапазон. Введите "
+#~ "правильное значение."
+
+#~ msgid ""
+#~ "The Brightness delta value you entered did not appear to be a valid one. "
+#~ "Please enter a valid value."
+#~ msgstr ""
+#~ "Значение дельты яркости, которое Вы ввели, не является допустимым. "
+#~ "Введите правильное числовое значение."
+
+#~ msgid ""
+#~ "The value of small PNG file for downloading is too small. Please enter a "
+#~ "value more than 10."
+#~ msgstr ""
+#~ "Значение размеров небольшого PNG файла для скачивания слишком мало. "
+#~ "Введите значение больше 10."
+
+#~ msgid ""
+#~ "The value of small PNG file for downloading did not appear to be a valid. "
+#~ "Please enter a valid numeric value."
+#~ msgstr ""
+#~ "Значение размеров небольшого PNG файла для скачивания, которое Вы ввели, "
+#~ "не является допустимым. Введите правильное числовое значение."
+
+#~ msgid ""
+#~ "The value of big PNG file for downloading is too small. Please enter a "
+#~ "value more than 100."
+#~ msgstr ""
+#~ "Значение размеров большого PNG файла для скачивания слишком мало. Введите "
+#~ "значение больше 100."
+
+#~ msgid ""
+#~ "The value of big PNG file for downloading did not appear to be a valid. "
+#~ "Please enter a valid numeric value."
+#~ msgstr ""
+#~ "Значение размеров большого PNG файла для скачивания, которое Вы ввели, не "
+#~ "является допустимым. Введите правильное числовое значение."
+
+#~ msgid ""
+#~ "The value of SVG file for downloading is too small. Please enter a value "
+#~ "more than 10."
+#~ msgstr ""
+#~ "Значение размеров SVG файла для скачивания слишком мало. Введите значение "
+#~ "больше 10."
+
+#~ msgid ""
+#~ "The value of SVG file for downloading did not appear to be a valid. "
+#~ "Please enter a valid numeric value."
+#~ msgstr ""
+#~ "Значение размеров SVG файла для скачивания, которое Вы ввели, не является "
+#~ "допустимым. Введите правильное числовое значение."
+
+#~ msgid ""
+#~ "The value of PNG file size for downloading on iOS devices is too small. "
+#~ "Please enter a value more than 10."
+#~ msgstr ""
+#~ "Значение размеров PNG файла для скачивания на устройствах, работающих под "
+#~ "iOS, слишком мало. Введите числовое значение больше 10."
+
+#~ msgid ""
+#~ "The value of PNG file size for downloading on iOS devices did not appear "
+#~ "to be a valid. Please enter a valid numeric value."
+#~ msgstr ""
+#~ "Значение размеров PNG файла для скачивания на устройствах, работающих под "
+#~ "iOS, которое Вы ввели, не является допустимым. Введите правильное "
+#~ "числовое значение."
+
+#~ msgid ""
+#~ "The value of PNG file size for downloading on Windows8 tablets and phones "
+#~ "is too small. Please enter a value more than 10."
+#~ msgstr ""
+#~ "Значение размеров PNG файла для скачивания на планшетах и телефонах, "
+#~ "работающих под Windows 8, слишком мало. Введите числовое значение больше "
+#~ "10."
+
+#~ msgid ""
+#~ "The value of PNG file size for downloading on Windows8 tablets and phones "
+#~ "did not appear to be a valid. Please enter a valid numeric value."
+#~ msgstr ""
+#~ "Значение размеров PNG файла для скачивания на планшетах и телефонах, "
+#~ "работающих под Windows 8, которое Вы ввели, не является допустимым. "
+#~ "Введите правильное числовое значение."
+
+#~ msgid ""
+#~ "The value of save file size is too small. Please enter a value more than "
+#~ "10."
+#~ msgstr ""
+#~ "Значение размера файла для сохранения слишком мало. Введите значение "
+#~ "больше 10."
+
+#~ msgid ""
+#~ "The value of save file size did not appear to be a valid. Please enter a "
+#~ "valid numeric value."
+#~ msgstr ""
+#~ "Значение размера файла для сохранения, которое Вы ввели, не является "
+#~ "допустимым. Введите правильное числовое значение."
+
+#~ msgid ""
+#~ "The value of PNG file for share is too small. Please enter a value more "
+#~ "than 200."
+#~ msgstr ""
+#~ "Значение размеров PNG файла для соцсетей слишком мало. Введите значение "
+#~ "больше 200."
+
+#~ msgid ""
+#~ "The value of PNG file for share did not appear to be a valid. Please "
+#~ "enter a valid numeric value."
+#~ msgstr ""
+#~ "Значение размеров PNG файла для соцсетей, которое Вы ввели, не является "
+#~ "допустимым. Введите правильное числовое значение."
+
+#~ msgid ""
+#~ "The value of uploading to Gravatar.com is too small. Please enter a value "
+#~ "more than 100."
+#~ msgstr ""
+#~ "Значение размеров PNG файла для загрузки на Gravatar.com слишком мало. "
+#~ "Введите значение больше 100."
+
+#~ msgid ""
+#~ "The value of uploading to Gravatar.com did not appear to be a valid. "
+#~ "Please enter a valid numeric value."
+#~ msgstr ""
+#~ "Значение размеров PNG файла для загрузки на Gravatar.com, которое Вы "
+#~ "ввели, не является допустимым. Введите правильное числовое значение."
+
+#~ msgid "<h3>Your avatar is stored.</h3><p>Thank you!</p>"
+#~ msgstr "<h3>Ваша аватарка сохранена.</h3><p>Спасибо!</p>"
+
+#~ msgid "<h3>Avatar is not saved!</h3><p>Please try again</p>"
+#~ msgstr ""
+#~ "<h3>Не удалось сохранить аватарку!</h3><p>Пожалуйста, попробуйте еще раз</"
+#~ "p>"
+
+#~ msgid "<h3>An error occured!</h3><p>Please try again</p>"
+#~ msgstr "<h3>Произошла ошибка!</h3><p>Пожалуйста, попробуйте еще раз</p>"
+
+#~ msgid "<h3>An unknown error occured!</h3><p>Please try again</p>"
+#~ msgstr "<h3>Произошла ошибка!</h3><p>Пожалуйста, попробуйте еще раз</p>"
+
+#~ msgid ""
+#~ "<h3>The wrong Rating value!</h3><p>Don't change input radio values. "
+#~ "Please try again</p>"
+#~ msgstr ""
+#~ "<h3>Неправильное значение рейтинга граватара!</h3><p>Не изменяйте "
+#~ "значения радио кнопок. Попробуйте еще раз</p>"
+
+#~ msgid ""
+#~ "<h3>An error with converting your avatar to PNG data!</h3><p>Please try "
+#~ "again</p>"
+#~ msgstr ""
+#~ "<h3>Ошибка при конвертации Вашей аватарки в PNG формат!</"
+#~ "h3><p>Пожалуйста, попробуйте еще раз</p>"
+
+#~ msgid "<h3>Hacking attempt!</h3><p>Do not do that!</p>"
+#~ msgstr "<h3>Попытка взлома!</h3><p>Не делайте этого!</p>"
+
+#~ msgid ""
+#~ "<h3>UserPro integration fail!</h3><p>Please contact the Administrator.</p>"
+#~ msgstr ""
+#~ "<h3>Ошибка интеграции с UserPro!</h3><p>Обратитесь к администратору.</p>"
+
+#~ msgid "<h3>WordPress fail!</h3><p>Cannot include WordPress functions.</p>"
+#~ msgstr ""
+#~ "<h3>Ошибка WordPress!</h3><p>Невозможно подключить функции WordPress.</p>"
+
+#~ msgid ""
+#~ "<h3>Error of uploading directory!</h3><p>Please check that wp-content/"
+#~ "uploads/svg-avatars/ directory exists and is writable.</p>"
+#~ msgstr ""
+#~ "<h3>Ошибка директории для закачивания!</h3><p>Пожалуйста, проверьте, что "
+#~ "каталог 'wp-content/uploads/svg-avatars/' существует и доступен для "
+#~ "записи.</p>"
+
+#~ msgid ""
+#~ "<h3>Error file data!</h3><p>The avatar's data sent seems is not being PNG "
+#~ "or SVG.</p>"
+#~ msgstr ""
+#~ "<h3>Ошибка данных файла!</h3><p>Отправленные данные аватарки, похоже, не "
+#~ "в формате PNG или SVG.</p>"
+
+#~ msgid "<h3>Error file type!</h3><p>The avatar file is not PNG or SVG.</p>"
+#~ msgstr ""
+#~ "<h3>Ошибка типа файла!</h3><p>Файл аватарки не в формате PNG или SVG.</p>"
+
+#~ msgid ""
+#~ "<div class='error'><h3><strong>svgavatars.defaults.js</strong> could not "
+#~ "be created</h3>The file <strong>%s</strong> cannot be saved.<br>Please "
+#~ "check that the file exists and/or you need to make this file writable "
+#~ "before you can use the plugin. See <a href='http://codex.wordpress.org/"
+#~ "Changing_File_Permissions'>the Codex</a> for more information.</div>"
+#~ msgstr ""
+#~ "<div class='error'><h3>Не удается создать файл <strong>svgavatars."
+#~ "defaults.js</strong></h3>Невозможно записать файл: <strong>%s</"
+#~ "strong><br>Пожалуйста, проверьте, что файл существует и/или открыт для "
+#~ "записи перед тем как использовать плагин. Смотрите <a href='http://codex."
+#~ "wordpress.org/Changing_File_Permissions'>Кодекс</a> для дополнительной "
+#~ "информации.</div>"
+
+#~ msgid "<h2>Welcome to SVG Avatar Generator</h2>"
+#~ msgstr "<h2>Добро пожаловать на Генератор SVG Аватарок</h2>"

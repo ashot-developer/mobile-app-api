@@ -1,0 +1,174 @@
+/*******************************************************************************
+ * @name:       svgavatars-custom-colors.css
+ * @version:    1.7
+ * @URL:        https://svgavatars.com
+ * @copyright:  (c) 2014-2021 DeeThemes (https://codecanyon.net/user/DeeThemes)
+ * @licenses:   https://codecanyon.net/licenses/regular
+				https://codecanyon.net/licenses/extended
+********************************************************************************/
+
+/*
+ * Replace color values with yours.
+ * Repeats Light scheme for reference by default.
+*/
+
+#svga-container.svga-custom,
+.svga-custom .svga-glob-controls,
+.svga-custom .svga-col-left .sp-replacer,
+.svga-custom #svga-footermenu ul li ul li,
+.svga-custom #svga-start-overlay,
+.svga-custom #svga-gender,
+.svga-custom #svga-dialog,
+.svga-custom #svga-gravatar,
+.svga-custom #svga-message,
+.svga-custom #svga-gravatar-message,
+.svga-custom #svga-ios,
+.svga-custom #svga-share-block {
+	background-color: #fafafa;
+}
+.svga-custom .svga-colors-set > div,
+.svga-custom .svga-elements {
+	border-color: #fafafa;
+}
+#svga-container.svga-custom,
+.svga-custom .svga-row.row-glob-controls,
+.svga-custom .svga-glob-controls,
+.svga-custom .svga-glob-controls:last-child,
+.svga-custom .svga-row.row-colors,
+.svga-custom .svga-row.row-svgcanvas,
+.svga-custom .svga-row.row-controls,
+.svga-custom .svga-controls,
+.svga-custom .svga-row.row-elements,
+.svga-custom .svga-row.row-bodyzones,
+.svga-custom .svga-blocks,
+.svga-custom #svga-footermenu,
+.svga-custom #svga-footermenu ul li,
+.svga-custom #svga-footermenu ul li ul li,
+.svga-custom .svga-blocks:first-child {
+	border-color: #ecf0f1;
+}
+.svga-no-touch.svga-custom .svga-glob-controls:hover,
+.svga-no-touch.svga-custom .svga-controls:hover,
+.svga-custom #svga-bodyzones,
+.svga-no-touch.svga-custom .svga-blocks:hover,
+.svga-custom .svga-blocks.svga-active,
+.svga-no-touch.svga-custom #svga-footermenu ul li:hover,
+.svga-custom .scroll-simple_outer > .scroll-element,
+.svga-custom .svga-input {
+	background-color: #ecf0f1;
+}
+#svga-container.svga-custom,
+#svga-container.svga-custom .svga-nosvg,
+.svga-custom .svga-input {
+	color: #777;
+}
+.svga-custom .svga-elements {
+	background-color: #ecf0f1;
+}
+.svga-custom #svga-dialog-ok,
+.svga-custom #svga-dialog-cancel,
+.svga-custom #svga-gravatar-ok,
+.svga-custom #svga-gravatar-cancel,
+.svga-custom .svga-close,
+.svga-custom #svga-tryagain,
+.svga-custom .svga-active-element,
+.svga-custom .svga-input {
+	border-color: #ecf0f1;
+}
+.svga-custom .svga-control-icon-path,
+.svga-custom .svga-menu-icon-path,
+.svga-custom .svga-icon-boy,
+.svga-custom .svga-icon-girl {
+	fill: #aaa;
+}
+.svga-custom .svga-credit a {
+	color: #999;
+}
+.svga-no-touch.svga-custom #svga-dialog-cancel:hover,
+.svga-no-touch.svga-custom #svga-dialog-ok:hover,
+.svga-no-touch.svga-custom #svga-gravatar-cancel:hover,
+.svga-no-touch.svga-custom #svga-gravatar-ok:hover,
+.svga-no-touch.svga-custom .svga-close:hover,
+.svga-no-touch.svga-custom #svga-tryagain:hover {
+	color: #fff;
+}
+
+/* FEMALE colors */
+#svga-container.svga-girls,
+.svga-no-touch.svga-girls #svga-dialog-cancel:hover,
+.svga-no-touch.svga-girls #svga-dialog-ok:hover,
+.svga-no-touch.svga-girls #svga-gravatar-cancel:hover,
+.svga-no-touch.svga-girls #svga-gravatar-ok:hover,
+.svga-no-touch.svga-girls .svga-close:hover,
+.svga-no-touch.svga-girls #svga-tryagain:hover {
+	border-color: #e74c3c;
+}
+.svga-no-touch.svga-girls .svga-bodyzones:hover,
+.svga-girls .svga-bodyzones.svga-active,
+.svga-no-touch.svga-girls .svga-blocks:hover,
+.svga-girls .svga-blocks.svga-active {
+	color: #e74c3c;
+}
+.svga-no-touch.svga-girls #svga-dialog-cancel:hover,
+.svga-no-touch.svga-girls #svga-dialog-ok:hover,
+.svga-no-touch.svga-girls #svga-gravatar-cancel:hover,
+.svga-no-touch.svga-girls #svga-gravatar-ok:hover,
+.svga-no-touch.svga-girls .svga-close:hover,
+.svga-no-touch.svga-girls #svga-tryagain:hover,
+.svga-girls .scroll-simple_outer > .scroll-element .scroll-bar {
+	background-color: #e74c3c;
+}
+#svga-start-girls:hover .svga-icon-girl {
+	fill: #e74c3c;
+}
+.svga-no-touch.svga-girls .svga-elements:hover,
+.svga-no-touch.svga-girls .svga-colors-set > div:hover,
+.svga-girls .svga-colors-set > div.svga-active,
+.svga-girls .svga-elements.svga-active-element {
+	border-color: #e74c3c;
+}
+
+/* MALE colors */
+#svga-container.svga-boys,
+.svga-no-touch.svga-boys #svga-dialog-cancel:hover,
+.svga-no-touch.svga-boys #svga-dialog-ok:hover,
+.svga-no-touch.svga-boys #svga-gravatar-cancel:hover,
+.svga-no-touch.svga-boys #svga-gravatar-ok:hover,
+.svga-no-touch.svga-boys .svga-close:hover,
+.svga-no-touch.svga-boys #svga-tryagain:hover {
+	border-color: #3498db;
+}
+.svga-no-touch.svga-boys .svga-bodyzones:hover,
+.svga-boys .svga-bodyzones.svga-active,
+.svga-no-touch.svga-boys .svga-blocks:hover,
+.svga-boys .svga-blocks.svga-active {
+	color: #3498db;
+}
+.svga-no-touch.svga-boys #svga-dialog-cancel:hover,
+.svga-no-touch.svga-boys #svga-dialog-ok:hover,
+.svga-no-touch.svga-boys #svga-gravatar-cancel:hover,
+.svga-no-touch.svga-boys #svga-gravatar-ok:hover,
+.svga-no-touch.svga-boys .svga-close:hover,
+.svga-no-touch.svga-boys #svga-tryagain:hover,
+.svga-boys .scroll-simple_outer > .scroll-element .scroll-bar {
+	background-color: #3498db;
+}
+#svga-start-boys:hover .svga-icon-boy {
+	fill: #3498db;
+}
+.svga-no-touch.svga-boys .svga-elements:hover,
+.svga-no-touch.svga-boys .svga-colors-set > div:hover,
+.svga-boys .svga-colors-set > div.svga-active,
+.svga-boys .svga-elements.svga-active-element {
+	border-color: #3498db;
+}
+
+/* COMMON colors */
+.svga-error h1,
+.svga-error h2,
+.svga-error h3,
+.svga-error h4,
+.svga-error h5,
+.svga-error h6 {
+	color: red!important;
+}

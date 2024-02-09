@@ -1,0 +1,42 @@
+.single-post .post h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.single-post .post header {
+    padding: 10px 0px;
+    border-bottom: 1px solid grey;
+}
+
+main {
+    max-width: 576px;
+    margin:  0 auto;
+    padding: 15px 20px;
+}
+
+.single-post #content .entry-header {
+    margin-bottom: 20px;
+}
+
+body.single-post {
+    background: #fff;
+}
+
+.single-post #content .entry-content {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.single-post .entry-content ol{
+    padding-left: 20px;
+    margin-left: 0;
+}
+
+.single-post .entry-content ul {
+    padding-left: 10px;
+}
+
+.page h1 {
+    text-align: center;
+}
