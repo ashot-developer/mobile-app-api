@@ -143,7 +143,7 @@ function minime_scripts() {
 	wp_style_add_data( 'minime-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'minime-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
-	wp_enqueue_script( 'minime-main', get_template_directory_uri() . '/assets/js/main.js', array(), _S_VERSION, true );
+	// wp_enqueue_script( 'minime-main', get_template_directory_uri() . '/assets/js/main.js', array(), _S_VERSION, true );
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
@@ -152,12 +152,25 @@ add_action( 'wp_enqueue_scripts', 'minime_scripts' );
 
 function enqueue_parent_styles() {
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-	wp_enqueue_style( 'custom', get_template_directory_uri() . '/assets/css/minime.css' );
+	wp_enqueue_style( 'custom', get_template_directory_uri() . '/assets/css/minime.css', array(), time() );
  }
  
  add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' );
+
+
+ function enqueue_custom_admin_script() {
+    wp_enqueue_script('custom-admin-script', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), '1.0', true);
+    wp_enqueue_script('jquery-modal-script', 'https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js', array('jquery'), '1.0', true);
+}
+add_action('admin_enqueue_scripts', 'enqueue_custom_admin_script');
+
+function enqueue_custom_admin_styles() {
+	wp_enqueue_style( 'jquery-modal-styles', 'https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css', array(), time() );
+}
+add_action('admin_enqueue_scripts', 'enqueue_custom_admin_styles');
+
  
- require get_stylesheet_directory() . '/app-api/minime-api.php';
+require_once get_stylesheet_directory() . '/app-api/minime-api.php';
 
 /**
  * Implement the Custom Header feature.
@@ -189,19 +202,20 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 // Add options page for ACF
 if( function_exists('acf_add_options_page') ) {
     acf_add_options_page(array(
-        'page_title'    => 'Minime App Options',
-        'menu_title'    => 'Minime App Options',
+        'page_title'    => 'אפשרויות אפליקציה',
+        'menu_title'    => 'אפשרויות אפליקציה',
         'menu_slug'     => 'minime-app-options',
         'capability'    => 'manage_options',
         'redirect'      => false,
-        'icon_url'      => 'dashicons-smartphone', // Use 'dashicons' for built-in icons, or provide your own URL
-        'position'      => 20 // Adjust the position in the admin menu
+        'icon_url'      => 'dashicons-smartphone',
+        'position'      => 20
     ));
 
-    // Add Configs submenu
     acf_add_options_sub_page(array(
-        'page_title'    => 'Minime App Configs',
-        'menu_title'    => 'Configs',
+        'page_title'    => 'הגדרות אפליקציה',
+        'menu_title'    => 'הגדרות',
         'parent_slug'   => 'minime-app-options',
+		'menu_slug' => 'acf-options-configs'
     ));
 }
+?>

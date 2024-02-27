@@ -62,7 +62,7 @@ function svgAvatars_register_main_assets() {
 		"svgAvatars-core",
 		SVGAVATARS_URL . "data/js/svgavatars.core.js",
 		array( "jquery", "svgAvatars-tools", "svgAvatars-defaults" ),
-		SVGAVATARS_VERSION,
+		time(),
 		true
 	);
 }

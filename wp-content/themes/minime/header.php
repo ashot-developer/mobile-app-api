@@ -11,11 +11,20 @@
 
 ?>
 <!doctype html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?> <?= is_page('avatars') ? "dir='rtl'" : "" ?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<?php 
+		if(is_page('avatars')) :
+	?>
+		<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+	<?php else : ?>
+		<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<?php endif; ?>
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+
 
 	<?php wp_head(); ?>
 </head>

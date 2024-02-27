@@ -185,11 +185,6 @@ window.jQuery(document).ready(function($) {
 		'</div>',
 		'<div class="svga-row">',
 			'<div class="svga-col-left">',
-				'<div class="svga-vert-order-glob-controls">',
-					'<div class="svga-row row-glob-controls">',
-						'<div id="svga-glob-controls" class="scrollbar scroll-simple_outer"></div>',
-					'</div>',
-				'</div>',
 				'<div class="svga-vert-order-colors">',
 					'<div class="svga-row row-colors">',
 						'<div id="svga-custom-color"><input type="text"></div>',
@@ -248,7 +243,6 @@ window.jQuery(document).ready(function($) {
 				'<div id="svga-start-boys"></div>',
 				'<div id="svga-start-girls"></div>',
 			'</div>',
-			translation.welcomeMsg,
 		'</div>',
 		'<div id="svga-dialog">',
 			translation.confirmMsg,
@@ -1949,6 +1943,9 @@ window.jQuery(document).ready(function($) {
 		$('#svga-saveavatar').on('click', function() {
 			$('#svga-work-overlay').fadeIn('fast');
 			$('#svga-canvas').attr({width: options.savingSize, height: options.savingSize});
+			SVG.get('svga-group-humanwrap').svgaScaleDown();
+			SVG.get('svga-group-humanwrap').svgaScaleDown();
+			SVG.get('svga-group-humanwrap').svgaScaleDown();
 			if (rect) {
 				rect.hide();
 			}
@@ -1976,9 +1973,9 @@ window.jQuery(document).ready(function($) {
 			const urlParams = new URLSearchParams(window.location.search);
 
 			// Get specific parameter values
-			const parentUid = urlParams.get('parentuid');
-			const childUid = urlParams.get('childuid');
-
+			const parentUid = urlParams.get('parentUid') ?? urlParams.get('parentuid');
+			const childUid = urlParams.get('childUid') ?? urlParams.get('childuid');
+			
 			$.ajax({
 				url: saveUrl,
 				type: 'post',

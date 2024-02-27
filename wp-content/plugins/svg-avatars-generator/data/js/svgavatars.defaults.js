@@ -86,7 +86,7 @@ function svgAvatarsTranslation() {
       backs: "רקעים"
     },
     bodyZoneTitles: {
-      backs: "basic",
+      backs: "ביסיסי",
       faceshape: "צורת פנים",
       chinshadow: "",
       facehighlight: "",
@@ -101,7 +101,7 @@ function svgAvatarsTranslation() {
       mouth: "פה",
       nose: "אף",
       glasses: "משקפיים",
-      mustache: "mustache",
+      mustache: "שפם",
       beard: "זקן"
     }
   };

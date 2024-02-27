@@ -55,3 +55,13 @@ if (!function_exists('minime_save_avatar')) {
         }
     }
 }
+
+
+require_once 'coupons/coupons.php';
+require_once 'users/users.php';
+require_once 'chat/chat.php';
+
+function enqueue_admin_custom_css() {
+    wp_enqueue_style( 'admin-custom', get_stylesheet_directory_uri() . '/assets/css/minime.css', array(), rand(11,9999), 'all' );
+}
+add_action( 'admin_enqueue_scripts', 'enqueue_admin_custom_css' );
