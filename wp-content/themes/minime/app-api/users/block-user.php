@@ -16,7 +16,7 @@ if (isset($_POST['user_id'])) {
     $action = $_POST['user_blocked'] ? 0 : 1;
     $msg = $_POST['user_blocked'] ? 'בוטלה החסימה של המשתמש' : 'המשתמש נחסם';
 
-    $api_endpoint = 'https://http-user-block-7vxnir2s7q-uc.a.run.app';
+    $api_endpoint = 'https://http-user-block-mlyjb3tq5a-uc.a.run.app';
 
     $api_data = array(
         'userUid' => $user_id,

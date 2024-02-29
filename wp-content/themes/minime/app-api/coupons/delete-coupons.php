@@ -19,7 +19,7 @@ function send_data_to_external_api($post_id) {
 		'body' => $requestBody
 	);
 	
-	$response = wp_remote_post('https://http-coupons-remove-7vxnir2s7q-uc.a.run.app', $args);
+	$response = wp_remote_post('https://http-coupons-remove-mlyjb3tq5a-uc.a.run.app', $args);
 	
 	if (is_wp_error($response)) {
 		echo 'Error: ' . $response->get_error_message();
@@ -49,7 +49,7 @@ function custom_untrash_post_action($post_id) {
 		'body' => $requestBody
 	);
 	
-	$response = wp_remote_post('https://http-coupons-remove-7vxnir2s7q-uc.a.run.app', $args);
+	$response = wp_remote_post('https://http-coupons-remove-mlyjb3tq5a-uc.a.run.app', $args);
 	
 	if (is_wp_error($response)) {
 		echo 'Error: ' . $response->get_error_message();

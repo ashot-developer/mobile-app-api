@@ -1,7 +1,7 @@
 <?php
 if(!function_exists('fetch_api_data')) {
     function fetch_api_data() {
-        $api_endpoint = 'https://http-children-getall-7vxnir2s7q-uc.a.run.app';
+        $api_endpoint = 'https://http-children-getall-mlyjb3tq5a-uc.a.run.app';
         
         $timeout = 10;
         for ($i = 0; $i < 3; $i++) {

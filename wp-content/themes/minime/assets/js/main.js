@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
         modal.find('.dot-spinner').css('display', 'flex');
         modal.find('.voldemort').css('display', 'none');
         $.ajax({
-            url: 'https://http-chat-get-messages-7vxnir2s7q-uc.a.run.app',
+            url: 'https://http-chat-get-messages-mlyjb3tq5a-uc.a.run.app',
             crossDomain: true,
             type: "get",
             data: {
@@ -61,7 +61,7 @@ jQuery(document).ready(function ($) {
         modal.find('.dot-spinner').css('display', 'flex');
         modal.find('.terms-res').css('display', 'none');
         $.ajax({
-            url: 'https://http-tac-get-7vxnir2s7q-uc.a.run.app',
+            url: 'https://http-tac-get-mlyjb3tq5a-uc.a.run.app',
             crossDomain: true,
             type: "get",
             data: {

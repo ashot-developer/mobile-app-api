@@ -113,7 +113,7 @@ function chat_page_callback() {
         </tbody>
         <?php else: ?>
             <tr>
-                <td colspan="6">
+                <td colspan="11">
                     <div class="empty_table">
                     אין נתונים  
                     </div>

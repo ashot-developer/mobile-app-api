@@ -1,7 +1,7 @@
 <?php
 if(!function_exists('fetch_chat_data')) {
     function fetch_chat_data() {
-        $api_endpoint = 'https://http-chats-getall-7vxnir2s7q-uc.a.run.app';
+        $api_endpoint = 'https://http-chats-getall-mlyjb3tq5a-uc.a.run.app';
         
             $response = wp_remote_get($api_endpoint);
     

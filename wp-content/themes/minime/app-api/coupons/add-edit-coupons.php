@@ -37,9 +37,9 @@ function send_custom_post_data_to_external_api($post_id, $post, $update) {
     if (isset($post) && $post->post_type === 'coupon_post_type') {
 	
         if (!$update) {
-			save_post_callback($post->ID, 'https://http-coupons-add-7vxnir2s7q-uc.a.run.app');
+			save_post_callback($post->ID, 'https://http-coupons-add-mlyjb3tq5a-uc.a.run.app');
         } else {
-			save_post_callback($post->ID, 'https://http-coupons-add-7vxnir2s7q-uc.a.run.app');
+			save_post_callback($post->ID, 'https://http-coupons-add-mlyjb3tq5a-uc.a.run.app');
 		}
     }
 }

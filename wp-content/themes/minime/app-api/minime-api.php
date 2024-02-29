@@ -21,7 +21,7 @@ if (!function_exists('minime_save_terms')) {
             ),
         );
         
-        $response = wp_remote_post('https://tac-7vxnir2s7q-uc.a.run.app', $args);
+        $response = wp_remote_post('https://tac-mlyjb3tq5a-uc.a.run.app', $args);
         
         if (is_wp_error($response)) {
             echo 'Error: ' . $response->get_error_message();
@@ -45,7 +45,7 @@ if (!function_exists('minime_save_avatar')) {
             ),
         );
         
-        $response = wp_remote_post('https://avatar-7vxnir2s7q-uc.a.run.app', $args);
+        $response = wp_remote_post('https://avatar-mlyjb3tq5a-uc.a.run.app', $args);
         
         if (is_wp_error($response)) {
             echo 'Error: ' . $response->get_error_message();
